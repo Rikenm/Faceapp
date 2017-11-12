@@ -40,9 +40,9 @@ module.exports = function(app, passport){
 					var query = req.query.search;  //replace this with face_token
 
 
-          query = "http://everydayshouldbefun.com/wp-content/uploads/2017/01/1435305770-36a7c3951a2bb484f033814ee652156a-600x398.jpg"
+          //query = "http://everydayshouldbefun.com/wp-content/uploads/2017/01/1435305770-36a7c3951a2bb484f033814ee652156a-600x398.jpg"
 
-					const userFieldSet = query;
+					//const userFieldSet = query;
 					// for friends' likes
 					//https://graph.facebook.com/me/friends?fields=name,id,likes.limit(100).fields(id,name)&limit=100
 
