@@ -11,7 +11,7 @@
     video:true,
     audio: false
   },function(stream){
-    video.src = vendorUrl.createObjectUrl(stream);
+    video.src = vendorUrl.createObjectURL(stream);
     video.play();
   },function(error){
 
