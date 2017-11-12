@@ -2,7 +2,7 @@ module.exports = {
 	'facebookAuth' : {
 		'clientID': '122629845083954',
 		'clientSecret': '072a76d533ec855c848e7f82a288e9ce',
-		'callbackURL': 'http://localhost:8000/auth/facebook/callback'
+		'callbackURL': 'https://thawing-basin-70391.herokuapp.com/auth/facebook/callback'
 	},
 
 	'googleAuth' : {
