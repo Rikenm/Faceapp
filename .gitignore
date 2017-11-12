@@ -1,2 +1,5 @@
 config
 .DS_Store
+auth.js
+database.js
+passport.js
