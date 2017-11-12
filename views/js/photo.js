@@ -1,9 +1,7 @@
 
 
 window.onload = function() {
-    // all of your code goes in here
-    // it runs after the DOM is built
-
+  
 
     (function(){
       var video = document.getElementById('video'),
