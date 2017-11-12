@@ -26,7 +26,7 @@ window.onload = function() {
       });
 
       document.getElementById('capture').addEventListener('click',function(){
-             context.drawImage(video,0,0,350,300);
+             context.drawImage(video,0,0,380,300);
              create_img();
 
       });
@@ -36,7 +36,7 @@ window.onload = function() {
 
         var x = document.createElement("IMG");
         x.src = canvas.toDataURL("image/png"); // this will generate base64 data
-        document.getElementById("img_display").innerHTML = "<img src='"+x.src+"' width='350' height='300' class='img-responsive'>";
+        document.getElementById("img_display").innerHTML = "<img src='"+x.src+"' width='380' height='300' class='img-responsive'>";
         // document.body.appendChild(x);
         //console.log(img.src);
         }
