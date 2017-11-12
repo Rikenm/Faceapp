@@ -37,7 +37,7 @@ window.onload = function() {
         var x = document.createElement("IMG");
         x.src = canvas.toDataURL("image/png"); // this will generate base64 data
         document.getElementById("img_display").innerHTML = '<form action="/result" method="get">'+
-        '<input name="image" type="image" id = "image" src = x.src>'+
+        '<input name="image" type="image" id = "image" src = \'x.src\'>'+
         '</form>';
 
 
