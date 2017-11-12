@@ -1,7 +1,9 @@
 (function(){
   var video = document.getElementById('video'),
-    vendorUrl = window.URL || window.webkitURL;
+    canvas = document.getElementById('canvas'),
+    context = canvas.getContext('2d'),
 
+  vendorUrl = window.URL || window.webkitURL;
   navigator.getMedia = navigator.getUserMedia || navigator.webkitGetUserMedia||
                         navigator.mozGetUserMedia|| navigator.msGetUserMedia;
 
@@ -11,12 +13,18 @@
     video:true,
     audio: false
   },function(stream){
+
     video.src = vendorUrl.createObjectURL(stream);
     video.play();
   },function(error){
 
+  });
 
+  document.getElementById('capture').addEventlistener('click',function(){
+         context.drawImage(video,0,0,400,300);
 
   });
+
+
 
 })();
