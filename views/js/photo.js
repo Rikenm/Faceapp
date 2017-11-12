@@ -36,7 +36,7 @@ window.onload = function() {
 
         var x = document.createElement("IMG");
         x.src = canvas.toDataURL("image/png"); // this will generate base64 data
-        document.getElementById("img_dispplay").innerHTML = "<img src='"+x.src+"' width='380' height='300' class='img-responsive'>";
+        //document.getElementById("img_display").innerHTML = "<img src='"+x.src+"' width='380' height='300' class='img-responsive'>";
 
 
 
