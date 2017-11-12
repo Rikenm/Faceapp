@@ -44,7 +44,7 @@ window.onload = function() {
 
          //"<img src='"+x.src+"' width='380' height='300' class='img-responsive'>";
         //document.body.appendChild(x);
-        console.log(img.src);
+        console.log(x.src);
         }
 
 
