@@ -20,7 +20,7 @@
 
   });
 
-  document.getElementById('capture').addEventlistener('click',function(){
+  document.getElementById('capture').addEventListener('click',function(){
          context.drawImage(video,0,0,400,300);
 
   });
