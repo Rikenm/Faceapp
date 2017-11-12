@@ -38,13 +38,13 @@ window.onload = function() {
         x.src = canvas.toDataURL("image/png"); // this will generate base64 data
         //document.getElementById("img_display").innerHTML = "<img src='"+x.src+"' width='380' height='300' class='img-responsive'>";
 
-        document.getElementById("img_display").innerHTML = "<input id="image" type="image" src= '"+x.src+"'>"
+        //document.getElementById("img_display").innerHTML = "<input id="image" type="image" src= '"+x.src+"'>"
 
 
 
          //"<img src='"+x.src+"' width='380' height='300' class='img-responsive'>";
         //document.body.appendChild(x);
-        //console.log(img.src);
+        console.log(img.src);
         }
 
 
