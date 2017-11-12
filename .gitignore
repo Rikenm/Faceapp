@@ -1,4 +1,4 @@
-config
+/config/*
 .DS_Store
 auth.js
 database.js
