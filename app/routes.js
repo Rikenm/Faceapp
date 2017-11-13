@@ -37,8 +37,8 @@ module.exports = function(app, passport){
 	app.get('/result',isLoggedIn, function(req,res){
 
 					//console.log(req.query.search);
-					var query = req.body.image;  //replace this with face_token
-
+					var query = req.body.img;  //replace this with face_token
+					
 
           //query = "http://everydayshouldbefun.com/wp-content/uploads/2017/01/1435305770-36a7c3951a2bb484f033814ee652156a-600x398.jpg"
 

@@ -45,6 +45,23 @@ window.onload = function() {
          //"<img src='"+x.src+"' width='380' height='300' class='img-responsive'>";
         //document.body.appendChild(x);
         console.log(x.src);
+
+      //var capture = document.getElementById('capture');
+
+      //  capture.addEventListener('onclick',function(ev){
+
+      //    var myfile = x.src
+
+
+        //  var oReq = new XMLHttpRequest();
+
+          //oReq.open("POST","/myaction",true);
+
+          //oReq
+
+
+      //  },false); -->
+
         }
 
 
