@@ -59,8 +59,9 @@ window.onload = function() {
 
           //oReq
           console.log(x.src);
-          document.getElementById('mydata').value = x.src;
-          document.getElementById('myform').submit();
+
+          //document.getElementById('mydata').value = x.src;
+          //document.getElementById('myform').submit();
       //  },false); -->
 
         }
