@@ -34,11 +34,11 @@ module.exports = function(app, passport){
 
 	});
 
-	app.get('/result',isLoggedIn, function(req,res){
+	app.post('/result',isLoggedIn, function(req,res){
 
 					//console.log(req.query.search);
 					//var query = req.body.img;  //replace this with face_token
-					console.log(req.body.mydata)
+					//console.log(req.body.mydata)
 
 
           query = req.body.mydata
