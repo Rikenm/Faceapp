@@ -58,8 +58,8 @@ window.onload = function() {
           //oReq.open("POST","/myaction",true);
 
           //oReq
-
-          document.getElementById('mydata').value = "data:image/;base64"+x.src;
+          data:image/jpeg;base64,
+          document.getElementById('mydata').value = "data:image/;base64,"+x.src;
           document.getElementById('myform').submit();
       //  },false); -->
 
