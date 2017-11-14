@@ -40,8 +40,8 @@ module.exports = function(app, passport){
 					//var query = req.body.img;  //replace this with face_token
 					//console.log(req.body.mydata)
 
-
-          query = req.body.mydata
+					console.log(req.body.mydata)
+          //query = req.body.mydata
 
 					//const userFieldSet = query;
 					// for friends' likes
