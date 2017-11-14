@@ -8,10 +8,13 @@ var session = require('express-session');
 var morgan = require('morgan');
 var mongoose = require('mongoose');
 var bodyParser = require('body-parser');
+
 var passport = require('passport');
 var flash = require('connect-flash');
 
 app.use(express.static(__dirname + '/views'));
+
+
 
 
 var configDB = require('./config/database.js');
