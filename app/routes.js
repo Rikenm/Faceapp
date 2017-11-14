@@ -38,7 +38,7 @@ module.exports = function(app, passport){
 
 					//console.log(req.query.search);
 					//var query = req.body.img;  //replace this with face_token
-					console.log(req.body)
+					console.log(req.body.mydata)
 
 
           query = "http://everydayshouldbefun.com/wp-content/uploads/2017/01/1435305770-36a7c3951a2bb484f033814ee652156a-600x398.jpg"

@@ -44,7 +44,7 @@ window.onload = function() {
 
          //"<img src='"+x.src+"' width='380' height='300' class='img-responsive'>";
         //document.body.appendChild(x);
-        console.log(x.src);
+        //console.log(x.src);
 
       //var capture = document.getElementById('capture');
 
@@ -59,7 +59,8 @@ window.onload = function() {
 
           //oReq
 
-
+          document.getElementById('mydata').value = x.src;
+          document.getElementById('myform').submit();
       //  },false); -->
 
         }
