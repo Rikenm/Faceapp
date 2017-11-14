@@ -41,7 +41,7 @@ module.exports = function(app, passport){
 					//console.log(req.body.mydata)
 
 					console.log(req.body.mydata)
-          //query = req.body.mydata
+          query = req.body.mydata
 
 					//const userFieldSet = query;
 					// for friends' likes
