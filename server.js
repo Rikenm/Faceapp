@@ -14,6 +14,9 @@ var flash = require('connect-flash');
 
 app.use(express.static(__dirname + '/views'));
 
+app.use(bodyParser.json({limit: '50mb'}));
+app.use(bodyParser.urlencoded({limit: '50mb', extended: true}));
+
 
 
 
