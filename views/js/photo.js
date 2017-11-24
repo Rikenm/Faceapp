@@ -58,7 +58,7 @@ window.onload = function() {
           //oReq.open("POST","/myaction",true);
 
           //oReq
-          console.log(x.src);
+          
 
           document.getElementById('mydata').value = x.src;
           document.getElementById('myform').submit();
