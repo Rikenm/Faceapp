@@ -4,9 +4,17 @@
 <head>
 	<title>Face App</title>
 	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
-	<link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">  <!-- load fontawesome -->
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link rel="stylesheet" href="style/login.css">
 	<style>
-		body 		{ padding-top:80px; }
+		body 		{ padding-top:80px;}
+		h1{font-family: 'Lobster', cursive}
+		label{font-family: 'Lobster', cursive }
+		body p{
+			font-family: 'Lobster', cursive;
+			font-size: 1.35em
+		}
 	</style>
 </head>
 <body>
@@ -14,7 +22,7 @@
 
 <div class="col-sm-6 col-sm-offset-3">
 
-	<h1><span class="fa fa-sign-in"></span> Login</h1>
+	<h1 id="log_in" ><span class="fa fa-beer" ></span> Login</h1>
 
 	<!-- show any messages that come back with authentication -->
 	<% if (message.length > 0) { %>
@@ -32,13 +40,15 @@
 			<input type="password" class="form-control" name="password">
 		</div>
 
-		<button type="submit" class="btn btn-warning btn-lg">Login</button>
+		<button type="submit" class="btn btn-primary btn-lg">Login</button>
 	</form>
 
 	<hr>
 
-	<p>Need an account? <a href="/signup">Signup</a></p>
+	<p><strong>Need an account? <a href="/signup">Signup</a></p>
 	<p>Or go <a href="/">home</a>.</p>
+
+
 
 </div>
 
